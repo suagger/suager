@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/picture"
+    >
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_marginTop="280dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+       >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="用户名   "
+                android:textSize="30sp"
+                android:textColor="#0F0F0F"/>
+
+            <EditText
+                android:id="@+id/input_name"
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="ip地址  "
+                android:textSize="30sp"
+                android:textColor="#0F0F0F"/>
+
+            <EditText
+                android:id="@+id/ip_address"
+                android:gravity="center"
+                android:focusable="false"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="端口号  "
+                android:textSize="30sp"
+                android:textColor="#0F0F0F"/>
+
+            <EditText
+                android:id="@+id/port_name"
+                android:gravity="center"
+                android:focusable="false"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+
+        </LinearLayout>
+
+
+        <Button
+            android:id="@+id/login"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="登录"
+            android:layout_marginTop="30dp"
+            android:textSize="30sp"
+            android:background="#F0FFFF"
+            android:textColor="#0F0F0F"/>
+
+    </LinearLayout>
+
+
+
+</LinearLayout>

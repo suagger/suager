@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/shappp"
+    >
+
+
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <Button
+        android:id="@+id/back"
+        android:layout_width="53dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/evvv_shape"
+        android:text="退出" />
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_marginTop="20dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:text="聊天室"
+        android:textColor="#121212"
+        android:textSize="20sp" />
+
+
+</LinearLayout>
+
+
+
+    <androidx.recyclerview.widget.RecyclerView
+         android:id="@+id/msg_recycler_view"
+         android:layout_marginTop="15dp"
+         android:layout_width="match_parent"
+         android:layout_marginLeft="15dp"
+         android:layout_marginRight="15dp"
+         android:layout_height="0dp"
+         android:layout_weight="1"/>
+    <LinearLayout
+        android:layout_margin="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+        <EditText
+            android:id="@+id/input_text"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/ev_shape"
+            android:hint="Type something here"
+            android:maxLines="2"/>
+
+
+        <Button
+            android:id="@+id/send"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/evv_shape"
+            android:text="发送"
+            android:layout_marginLeft="5dp"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp"/>
+    </LinearLayout>
+
+</LinearLayout>
